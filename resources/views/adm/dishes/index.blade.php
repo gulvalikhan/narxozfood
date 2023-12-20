@@ -11,7 +11,7 @@
                         <div style="background: #ffffff" class="card-body">
                             <img src="{{asset($dsh->img)}}" style="width: 200px; height: 200px;">
                             <h5 class="card-title">{{ $dsh->name }}</h5>
-                            <h5 class="card-text">{{ $dsh->price }} KZT</h5>
+{{--                            <h5 class="card-text">{{ $dsh->price }} cal</h5>--}}
                             <a href="{{ route('dishes.show', $dsh->id) }}" class="flex-sm-row btn btn-warning">{{ __('messages.Check') }}:</a>
                         </div>
                     </div>

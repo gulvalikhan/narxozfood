@@ -29,8 +29,8 @@
                         <div class="invalid-feedback"></div>
                     </div>
                     <div class="form-group">
-                        <label for="priceGroup">{{__('messages.Price')}}</label>
-                        <input type="number" class="form-control" id="priceInput" name="price" placeholder="Enter price">
+                        <label for="priceGroup">{{__('messages.Calories')}}</label>
+                        <input type="number" class="form-control" id="priceInput" name="price" placeholder="Enter calories">
                         <div class="invalid-feedback"></div>
                     </div>
                     <div class="mb-3">
@@ -61,8 +61,8 @@
                         <div class="invalid-feedback"></div>
                     </div>
                     <div class="form-group">
-                        <label for="priceGroup">{{__('messages.Massa')}}</label>
-                        <input type="number" class="form-control" id="massaInput" name="massa" placeholder="Enter massa">
+                        <label for="priceGroup">{{__('messages.Time')}}</label>
+                        <input type="number" class="form-control" id="massaInput" name="massa" placeholder="Enter time">
                         <div class="invalid-feedback"></div>
                     </div>
                     <div class="form-group">

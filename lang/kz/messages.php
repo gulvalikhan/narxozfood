@@ -33,12 +33,17 @@ return [
 
     'name' => 'Аты',
     'category' => 'Категориялар',
+    'Select' => 'Таңдаулы',
+    'Time' => 'Дайын болады',
+    'Delicious Day' => 'Delicious Day',
     'home'  => 'Басты бет',
     'email' => 'Электрондық пошта',
     'password' => 'Құпия сөз',
     'remember' => 'Мені ұмытпаңыз',
     'confirm_password' => 'Құпия сөзді Растау',
     'price' => 'Бағасы',
+    'Calories' => 'Калория',
+    'Cal' => 'Кал',
     'size' => 'Өлшем',
     'manufacturer' => 'Өндіруші',
     'description' => 'Сипаттама',
@@ -84,7 +89,8 @@ return [
     'color' => 'Түсі',
     'quantity' => 'Саны',
     'status' => 'Статусы',
-    'confirm' => 'Растау'
+    'confirm' => 'Растау',
+    'Recipe' => 'Рецепты',
 
 
 

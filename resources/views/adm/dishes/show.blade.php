@@ -11,16 +11,16 @@
                         <div class="card-body" style="background: #ffffff">
                             <img src="{{asset($dish->img)}}" width="100px" style="width: 200px; height: 200px" alt="">
                             <h4 class="card-title">{{ __('messages.Name') }}: {{$dish->name }}</h4>
-                            <h5 class="card-text">{{ __('messages.Price') }}: {{$dish->price }} KZT</h5>
-                            <h5 class="card-text">{{ __('messages.Description') }}: {{$dish->description}}</h5>
-                            <h5 class="card-text">{{ __('messages.Massa') }}: {{$dish->massa}} {{ __('messages.gramm') }}:</h5>
+{{--                            <h5 class="card-text">{{ __('messages.Calories') }}: {{$dish->calories }} cal</h5>--}}
+                            <h5 class="card-text">{{ __('messages.Resipe') }}: {{$dish->description}}</h5>
+                            <h5 class="card-text">{{ __('messages.Calories') }}: {{$dish->massa}}  Кал</h5>
                         </div>
 
                         <form action="{{route('dishes.cart', $dish->id)}}" method="post">
                             @csrf
                             <div class="form-row">
                                 <div class="col-md-4 mb-3">
-                                    <p>{{ __('messages.Amount') }}</p>
+                                    <p>{{ __('messages.Save') }}</p>
                                     <select class="form-select" name="quantity">
                                         @for($i=1; $i<=99; $i++)
                                             <option value="{{$i}}">{{$i}}</option>
@@ -28,7 +28,7 @@
                                     </select>
                                 </div>
                             </div>
-                            <button class="btn btn-success">{{ __('messages.Add to Cart') }}</button>
+                            <button class="btn btn-success">{{ __('messages.Save') }}</button>
                         </form>
                     </div>
                 </div>

@@ -19,12 +19,17 @@ return [
     'Remember Me' => 'Remember Me',
     'Buy' => 'Buy',
     'Category' => 'Category',
+    'Cal' => 'Кал',
     'Logout' => 'Logout',
     'Amount' => 'Amount',
     'Name' => 'Name',
     'Price' => 'Price',
+    'Calories' => 'Calories',
+    'Select' => 'Select',
+    'Time' => 'Time',
     'Description' => 'Description',
     'Massa' => 'Massa',
+    'Delicious Day' => 'Delicious Day',
     'gramm' => 'gramm',
     'Check' => 'Check',
     'Main menu' => 'Main menu',
@@ -61,6 +66,8 @@ return [
     'add' => 'Add',
     'save' => 'Save',
     'cash' => 'Cash',
+    'Recipe' => 'Recipe',
+
 
 
 //    ************ADMIN PAGE*********************

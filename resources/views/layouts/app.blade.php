@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>{{ __('messages.Online Menu') }}</title>
+    <title>{{ __('messages.Delicious Day') }}</title>
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="{{asset('https://fonts.bunny.net/css?family=Nunito')}}" rel="stylesheet">
     <script src="{{asset('https://kit.fontawesome.com/90d90398ad.js')}}" crossorigin="anonymous"></script>
@@ -13,10 +13,10 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light" style="background: #fcaf0b; height: 100px">
+        <nav class="navbar navbar-expand-md navbar-light" style="background: #EB8D00; height: 100px">
             <div class="container">
                 <a class="navbar-brand">
-                    {{ __('messages.Online Menu') }}
+                    {{ __('messages.Delicious Day') }}
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -61,13 +61,13 @@
                                 </li>
                             @endif
                         @else
-                            <a class="nav-link" href = "{{route('cart.index')}}"><i class="fa-solid fa-cart-shopping"></i> {{__('messages.cart')}}</a>
+                            <a class="nav-link" href = "{{route('cart.index')}}"> {{__('messages.Select')}}</a>
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }}
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href = "{{route('pay.index')}}"><i class="fa-sharp fa-solid fa-wallet"></i> {{__('messages.cash')}}</a>
+{{--                                    <a class="dropdown-item" href = "{{route('pay.index')}}"><i class="fa-sharp fa-solid fa-wallet"></i> {{__('messages.cash')}}</a>--}}
                                     <a class="dropdown-item" href = "{{route('profile')}}"><i class="fa-solid fa-user"></i> {{__('messages.profile')}}</a>
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
@@ -117,8 +117,8 @@
         <main class="py-4" style="min-height: 750px">
             @yield('content')
         </main>
-        <div style="background: #fcaf0b; width: 100%; height: 100px;">
-            <h4 class="text-center" style="color: rgba(0,0,0,0.68); padding-top: 50px">All Rights Reserved</h4>
+        <div style="background: #EB8D00; width: 100%; height: 100px;">
+            <h4 class="text-center" style="color: rgb(255,255,255); padding-top: 50px">All Rights Reserved@</h4>
         </div>
     </div>
 </body>

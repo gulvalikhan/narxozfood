@@ -21,7 +21,7 @@
         <tr>
             <th scope="col">#</th>
             <th scope="col">{{__('messages.Name')}}</th>
-            <th scope="col">{{__('messages.Price')}}</th>
+{{--            <th scope="col">{{__('messages.Price')}}</th>--}}
             <th scope="col">{{__('messages.Category')}}</th>
             <th scope="col">{{__('messages.Edit')}}</th>
             <th scope="col">{{__('messages.Delete')}}</th>
@@ -32,7 +32,7 @@
             <tr>
                 <th scope="row">{{$i+1}}</th>
                 <td>{{$products[$i]->name}}</td>
-                <td>{{$products[$i]->price}}</td>
+{{--                <td>{{$products[$i]->price}}</td>--}}
                 <td>{{$products[$i]->category->name}}</td>
                 <td>
                   <a href="{{route('dishes.edit', $products[$i]->id)}}" class="btn btn-success">{{__('messages.Edit')}}</a>

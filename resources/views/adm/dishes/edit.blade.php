@@ -39,32 +39,32 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="contentGroup">{{__('messages.Price')}}</label>
+                        <label for="contentGroup">{{__('messages.Calories')}}</label>
                         <input type="number" value="{{$dish->price}}" class="form-control" id="priceInput" name="price">
                         <div class="invalid-feedback"></div>
                     </div>
                     <div class="form-group">
-                        <label for="contentGroup">{{__('messages.Description')}}</label>
+                        <label for="contentGroup">{{__('messages.Recipe')}}</label>
                         <textarea class="form-control" id="descriptionInput" name="description">{{$dish->description}}</textarea>
                         <div class="invalid-feedback"></div>
                     </div>
                     <div class="form-group">
-                        <label for="contentGroup">{{__('messages.Description')}} KZ</label>
+                        <label for="contentGroup">{{__('messages.Recipe')}} KZ</label>
                         <textarea class="form-control" id="descriptionInput" name="description_kz">{{$dish->description_kz}}</textarea>
                         <div class="invalid-feedback"></div>
                     </div>
                     <div class="form-group">
-                        <label for="contentGroup">{{__('messages.Description')}} RU</label>
+                        <label for="contentGroup">{{__('messages.Recipe')}} RU</label>
                         <textarea class="form-control" id="descriptionInput" name="description_ru">{{$dish->description_ru}}</textarea>
                         <div class="invalid-feedback"></div>
                     </div>
                     <div class="form-group">
-                        <label for="contentGroup">{{__('messages.Description')}} En</label>
+                        <label for="contentGroup">{{__('messages.Recipe')}} En</label>
                         <textarea class="form-control" id="descriptionInput" name="description_en">{{$dish->description_en}}</textarea>
                         <div class="invalid-feedback"></div>
                     </div>
                     <div class="form-group">
-                        <label for="contentGroup">{{__('messages.Massa')}}</label>
+                        <label for="contentGroup">{{__('messages.Time')}}</label>
                         <input type="number" value="{{$dish->massa}}" class="form-control" id="massaInput" name="massa">
                         <div class="invalid-feedback"></div>
                     </div>
